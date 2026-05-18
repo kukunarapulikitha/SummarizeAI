@@ -22,6 +22,7 @@ Open http://localhost:3000.
 
 Get a Groq API key (free) at https://console.groq.com.
 
+Deployed app link: https://messy-to-structured-yegx4bci3-likitha-kukunarapu-s-projects.vercel.app/ 
 ## How it works
 
 1. User pastes meeting notes in the browser
