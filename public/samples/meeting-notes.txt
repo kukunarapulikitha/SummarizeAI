@@ -1,0 +1,17 @@
+monday standup, q3 launch sync — attendees: priya (PM), james (eng lead), sam (design), me
+
+priya kicked off — launch is slipping from aug 15 to aug 29, mostly because the new onboarding flow is still in QA and we hit two ios crashes last week. she's nervous because marketing already booked the email blast for the 22nd. needs us to confirm a new date by EOD wednesday.
+
+james: backend is fine, all the api endpoints shipped friday, latency looks good on staging (~120ms p95). real blocker is mobile — the crash repro only happens on ios 17.4 with vpn enabled (weird). he wants to bring in carlos from the platform team for two days. should be unblocked by friday assuming carlos is available.
+
+sam showed the updated empty-state designs, they look great, much warmer than v1. one concern: the illustration files are huge, 800kb each, will tank our lighthouse score. need to swap for SVGs or compressed webp. minor, can fix next sprint.
+
+action items came out of this:
+- I need to ping carlos's manager about borrowing him — by today
+- james will write up the ios bug repro in the linear ticket — tomorrow
+- priya will draft the launch-delay email for the exec list — wed
+- sam will get optimized illustration assets to eng — next sprint, not urgent
+
+sentiment in the room was a little tense but constructive. nobody's panicking. priya did mention that if we slip again past sept, the cfo will likely want to re-scope the whole epic which would be Bad.
+
+oh and stripe webhook issue from last week is fully resolved, james confirmed. closing that ticket.

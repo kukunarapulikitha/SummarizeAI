@@ -1,0 +1,10 @@
+id,customer,subject,body,priority,status
+T-1042,acme corp,Cannot login after password reset,"Hi, I reset my password yesterday using the email link but every time I try to sign in it says invalid credentials. Tried three browsers. This is blocking our whole team from accessing the dashboard.",high,open
+T-1043,beta industries,Export to CSV is broken,"the export button on the reports page just spins forever, nothing downloads. happens on chrome and safari. not urgent but annoying.",low,open
+T-1044,nimbus llc,billing question,"got charged twice this month? please refund the duplicate.  invoice #INV-8821 and #INV-8822, same amount $299",medium,open
+T-1045,acme corp,Login STILL not working,"I opened T-1042 two hours ago and it's getting worse — now even my admin account is locked out. We have a board meeting at 3pm and need the dashboard. ESCALATE PLEASE.",high,open
+T-1046,delta partners,Feature request: dark mode,"would love a dark mode option, especially for the analytics views. nice to have.",low,open
+T-1047,beta industries,API rate limits unclear,"docs say 1000 req/min but we're getting 429s at around 700. is the limit different on the starter plan? need clarity for our integration.",medium,open
+T-1048,echo studios,App crashes on iPhone 15,"Every time I open the iOS app it crashes within 5 seconds on my iPhone 15 (iOS 17.4). Reinstalled twice. Worked fine last week.",high,open
+T-1049,nimbus llc,Re: billing question,"thanks for the quick refund! all good now, closing out.",low,resolved
+T-1050,foxtrot ai,Onboarding flow confusing,"new user here — the step where you connect your data source is really unclear. spent 20 min figuring it out. consider adding a video walkthrough?",medium,open
